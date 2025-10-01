@@ -80,7 +80,6 @@
     speechSounds: Pai
   - type: ShipyardListing
     shuttles:
-    - gazpachov
     - Exhumer
     - Homesteader
     - Hammerhead
@@ -173,3 +172,4 @@
     - Exhumermk2
     - Pearmk2
     - Termitemk2
+    - Slug
