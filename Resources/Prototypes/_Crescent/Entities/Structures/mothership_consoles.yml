@@ -9,6 +9,8 @@
     - Vanguard
     - Zorniy
     - Lodka
+    - Cherenzikov
+    - Ivarod
 
 - type: entity
   id: JackalMothershipComputer
@@ -37,6 +39,8 @@
     - Gnosis
     - Praxis
     - Imparator
+    - Praetorian
+    - Laelaps
 
 - type: entity
   id: NemesisMothershipComputer
