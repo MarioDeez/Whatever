@@ -3,6 +3,8 @@
   parent: Clothing
   id: ClothingHandsBase
   components:
+  - type: StaticPrice
+    price: 50
   - type: Sprite
     state: icon
   - type: Clothing
@@ -23,6 +25,10 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+  - type: DamageOnInteractProtection
+    damageProtection:
+      flatReductions:
+        Heat: 5 # the average lightbulb only does around four damage!
   - type: Fixtures
     fixtures:
       fix1:
@@ -75,10 +81,10 @@
   parent: BaseItem
   id: RingBase
   components:
-    - type: Clothing
-      slots: [ gloves, neck ]
-    - type: Item
-      size: Tiny
-    - type: Tag
-      tags:
-      - Ring
+  - type: Clothing
+    slots: [ gloves, neck ]
+  - type: Item
+    size: Tiny
+  - type: Tag
+    tags:
+    - Ring
